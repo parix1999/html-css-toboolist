@@ -23,18 +23,20 @@ header{
 .container{
     width:1100px;
     margin:0 auto;
+    background-color:white;
+    padding:10px;
 }
 .layout1{
     display:inline-block;
     background-color:#48aef1;
-    border-radius:10px;
-    padding:10px;
+    border-radius:5px;
+    padding:5px;
 }
 .layout2{
     display:inline-block;
     background-color:#fff;
-    border-radius:10px;
-    padding:10px;
+    border-radius:5px;
+    padding:5px;
     border:1px solid gray;
 }
 .bottoni1 a{
@@ -45,4 +47,41 @@ header{
 .bottoni2 a{
     color:gray;
     text-decoration:none;
+}
+.contorno-bottoni{
+    width:1100px;
+    margin:20px auto 0;
+    padding:10px;
+    background-color:white;
+    border-bottom:1px solid lightgray;
+}
+ul{
+    list-style-type:none;
+    margin-top:20px;
+}
+.task{
+    font-weight:bold;
+    font-size:18px;
+}
+.spunta{
+    display:inline-block;
+    color:#66c1aa;
+    background-color:white;
+    border:1px solid #66c1aa;
+    border-radius: 50%;
+    padding:1px;
+    font-size: 11px;
+}
+.text{
+    display:inline-block;
+}
+.box{
+    display:inline-block;
+    color:white;
+    border-radius: 10px;
+    padding:5px;
+    font-size:12px;
+}
+.editorial{
+    background-color: #48aef1;
 }
